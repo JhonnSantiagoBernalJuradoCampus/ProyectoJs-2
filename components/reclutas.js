@@ -51,12 +51,20 @@ export default{
         }
         return await( await fetch(`http://localhost:${puerto}/reclutas/${id}`, config)).json()
     },
-    async deleteReclutas(){
+    async changeReclutas(){
         await this.show()
-        let btn = document.querySelectorAll(`[name="delete"]`)
-        btn.forEach((val,id)=>{
+        let delet = document.querySelectorAll(`[name="delete"]`)
+        delet.forEach((val,id)=>{
             val.addEventListener("click", (e)=>{
-                this.delete(val.id)
+                let option = confirm("¿Está seguro de que desea eliminar?");
+                if (option) {
+                    this.delete(val.id);
+                }
+            })
+        })
+        let edit = document.querySelectorAll(`[name="edit"]`)
+        edit.forEach((val,id)=>{
+            val.addEventListener("click", (e)=>{
             })
         })
     },
