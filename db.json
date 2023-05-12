@@ -1,0 +1,70 @@
+{
+  "reclutas": [
+    {
+      "nombre": "Jhon Santiago Bernal Jurado",
+      "edad": 18,
+      "telefono": 111111,
+      "email": "jbernalsantiago11@gmail.com",
+      "direccion": "Cra 6 #13-18",
+      "fecha_nacimiento": "11-09-2004",
+      "numero_documento": "1098621901",
+      "fecha_ingreso_programa": "23-01-2023",
+      "id_team": "1",
+      "id": 1
+    },
+    {
+      "nombre": "Nicole",
+      "edad": "19",
+      "telefono": "321456894",
+      "email": "nicole@gmail.com",
+      "direccion": "Calle 14 #5-50",
+      "fecha_nacimiento": "4444-04-04",
+      "numero_documento": "194151208",
+      "fecha_ingreso_programa": "5555-05-05",
+      "id_team": "3",
+      "id": 3
+    },
+    {
+      "nombre": "Daniel",
+      "edad": "52",
+      "telefono": "112",
+      "email": "ganar.oscaryangela@gmail.com",
+      "direccion": "cr3 #10- 12",
+      "fecha_nacimiento": "11111-11-11",
+      "numero_documento": "108451561",
+      "fecha_ingreso_programa": "1111-11-11",
+      "id_team": "3",
+      "id": 4
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "nombre": "SPUTNIK",
+      "trainer_asociado": "Miguel"
+    },
+    {
+      "id": 2,
+      "nombre": "ARTEMIS",
+      "trainer_asociado": "Vermen"
+    },
+    {
+      "id": 3,
+      "nombre": "Apolo",
+      "trainer_asociado": "Jolver"
+    }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "nombre": "HTML,CSS,JS"
+    }
+  ],
+  "modulo_skill": [
+    {
+      "id": 1,
+      "nombre": "Web",
+      "id_skill": 1
+    }
+  ]
+}
