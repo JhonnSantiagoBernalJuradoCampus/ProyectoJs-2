@@ -39,7 +39,7 @@ export default{
                 <td>${val.numero_documento}</td>
                 <td>${val.fecha_ingreso_programa}</td>
                 <td><button type="button" class="delete btn btn-light w-100 text-light" name="delete" id=${val.id}>Delete</button></td>
-                <td><button type="button" class="edit ${val.id} btn w-100 text-light btn-light" name="edit" id="${val.id}">Edit</button></td>
+                <td><button type="button" class="edit ${val.id} btn w-100 text-light btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" name="edit" id="${val.id}">Edit</button></td>
         </tr>`
         });
         table.insertAdjacentHTML("beforeend", plantilla)

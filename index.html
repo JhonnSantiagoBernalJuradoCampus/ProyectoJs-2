@@ -35,6 +35,41 @@
         </form>
     </body>
     
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">Editar recluta</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre del recluta" required>
+                <input type="number" name="edad" placeholder="Edad del recluta" required>
+                <input type="tel" name="telefono" placeholder="Telefono del recluta" required>
+                <input type="email" name="email" placeholder="Email del recluta" required>
+                <input type="text" name="direccion" placeholder="Direccion del recluta" required>
+                <input type="date" name="fecha_nacimiento" placeholder ="Fecha de nacimiento del recluta" class="fecha"required>
+                <input type="number" name="numero_documento" placeholder="Numero de documento del recluta" required>
+                <input type="date" name="fecha_ingreso_programa" placeholder="Fecha de ingreso del recluta" class="fecha" required>
+                <select name="id_team" id="" required>
+                    <option value="">Selecciona tu team</option>
+                    <option value="1">Sputnik</option>
+                    <option value="2">Apollo</option>
+                    <option value="3">Artemis</option>
+                </select>
+            </form>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
     <h1 class="text-center mt-5 text-light">Reclutas</h1>
     <div class="container bg-dark " id="table-container">
         <table class="table text-white">
